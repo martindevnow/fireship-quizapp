@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:quizapp/shared/bottom_nav.dart';
+import 'package:quizapp/shared/shared.dart';
 
 class TopicsScreen extends StatelessWidget {
-  const TopicsScreen({ Key? key }) : super(key: key);
+  const TopicsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Topics'),
+      ),
       bottomNavigationBar: BottomNavBar(),
-      
     );
   }
 }
