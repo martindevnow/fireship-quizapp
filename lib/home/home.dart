@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
             'click', 
             style: Theme.of(context).textTheme.button,
           ),
-          onPressed: () => Navigator.pushNamed((context), '/about'),
+          onPressed: () => Navigator.pushNamed((context), '/topics'),
         ),
       ),
     );
