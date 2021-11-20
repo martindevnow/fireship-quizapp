@@ -8,7 +8,10 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-          child: Text('click'),
+          child: Text(
+            'click', 
+            style: Theme.of(context).textTheme.button,
+          ),
           onPressed: () => Navigator.pushNamed((context), '/about'),
         ),
       ),
