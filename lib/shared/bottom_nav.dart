@@ -7,20 +7,20 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      items: [
-        const BottomNavigationBarItem(
+      items: const [
+        BottomNavigationBarItem(
             icon: Icon(
               FontAwesomeIcons.graduationCap,
               size: 20,
             ),
             label: 'Topics'),
-        const BottomNavigationBarItem(
+        BottomNavigationBarItem(
             icon: Icon(
               FontAwesomeIcons.bolt,
               size: 20,
             ),
             label: 'About'),
-        const BottomNavigationBarItem(
+        BottomNavigationBarItem(
             icon: Icon(
               FontAwesomeIcons.userCircle,
               size: 20,
